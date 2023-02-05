@@ -7,13 +7,13 @@ public class arithmatic {
 	public static void main(String[] args) {
 		float ans;
 		Scanner sc = new Scanner(System.in);
-		while(true) {
-			System.out.println("1.Addition "+"\r\n2.Subtraction "
-					+ "\r\n3.Multiplication"+"\r\n4.Division"+"\r\n5.Exit");
-			
-			System.out.println("Enter your choice for operation:");
-			int ch= sc.nextInt();
-		if(ch>0 && ch<5) {
+		System.out.println("1.Addition "+"\r\n2.Subtraction "
+				+ "\r\n3.Multiplication"+"\r\n4.Division"+"\r\n5.Exit");
+		
+		System.out.println("Enter your choice for operation:");
+		int ch= sc.nextInt();
+		while(true)
+		if(ch>0 && ch<=5) {
 			System.out.println("Enter First number:");
 			float one= sc.nextFloat();
 			System.out.println("Enter Second number:");
@@ -48,7 +48,7 @@ public class arithmatic {
 			System.out.println("Invalid Operation");
 		}
 	}
-	}
+	
 	}
 
 
