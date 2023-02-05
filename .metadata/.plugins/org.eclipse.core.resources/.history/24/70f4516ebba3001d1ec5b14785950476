@@ -1,0 +1,17 @@
+package com.arithmatic;
+
+import java.util.Scanner;
+
+public class arithmatic {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("1.Addition "+"\r\n2.Subtraction "
+				+ "\r\n3.Multiplication"+"\r\n4.Division"+"\r\n5.Exit");
+		
+		System.out.println("Enter your choice for operation:");
+
+	}
+
+}
